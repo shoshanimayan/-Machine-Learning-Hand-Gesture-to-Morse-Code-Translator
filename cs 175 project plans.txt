@@ -1,0 +1,8 @@
+Goal: assign labels to hand images that say whether the hand is an open fist (0),
+closed fist(1), or it's ambiguous (2)
+
+Rough Plan:
+-first find out which xy coordinates correspond with which joint
+-test with a few select images and see if you can figure out a formula/pattern from the coordinates for
+recognizing which label to assign
+-most likely gonna compare the distance between the base of each finger compared to the tip
