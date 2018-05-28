@@ -19,8 +19,8 @@ train_data_names = ["000_977_L", "005_1247_R", "011_917_L", "013_1037_R", "024_9
    "028_1805_L", "029_1721_R", "032_1865_R", "033_1817_L", "034_665_R", "035_473_R", "036_551_L", "037_605_L", "050_1847_R", 
    "051_623_L", "052_1427_L", "063_1571_R"]
 train_data_labels = [0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4]
-validation_data_names = []
-validation_data_labels = []
+validation_data_names = ["000_1325_L", "", "002_911_L", "006_1721_L", "", "007_851_L"] . .- .
+validation_data_labels = [0, 1, 0, 2, 1, 0]
 
 def load_json():
    f = open("annotation.json", "r")
@@ -80,6 +80,7 @@ if __name__ == "__main__":
    image_dict = load_json()
    neural_net = create_neural_net(image_dict)
    predictions = make_predictions(image_dict, neural_net)
+   print(predictions)
    accuracy = check_accuracy(predictions)
    if accuracy == 1:
       translate_predictions(predictions)
