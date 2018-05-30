@@ -1,3 +1,4 @@
+0-45
 Goal: assign different gestures to different morse code characters (.- (space))
 
 Rough Plan:
@@ -26,6 +27,8 @@ pinch(2):
 -"032_1865_R"
 -"033_1817_L"
 -"067_1583_R"
+-"070_1565_R"
+-"071_1673_R"
 vertical(3):
 -"034_665_R"
 -"035_473_R"
