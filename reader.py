@@ -9,4 +9,3 @@ def reader():
         labels[i].remove('')
     myfile.close()
     return labels
-   
