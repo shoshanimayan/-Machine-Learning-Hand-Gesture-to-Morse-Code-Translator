@@ -1,0 +1,43 @@
+0-45
+Goal: assign different gestures to different morse code characters (.- (space))
+
+Rough Plan:
+-first get gestures recognition to work 
+-assign labels to a select number of images for training
+
+training images:
+fists(0):
+-"000_977_L"
+-"005_1247_R"
+-"011_917_L"
+-"013_1037_R"
+
+open(1):
+-"024_935_R"
+-"027_959_L"
+-"028_959_L"
+-"029_665_R"
+-"066_755_R"
+-"075_761_R"
+-"080_815_L"
+-"092_791_R"
+pinch(2):
+-"028_1805_L"
+-"029_1721_R"
+-"032_1865_R"
+-"033_1817_L"
+-"067_1583_R"
+-"070_1565_R"
+-"071_1673_R"
+vertical(3):
+-"034_665_R"
+-"035_473_R"
+-"036_551_L"
+-"037_605_L"
+-"068_659_R"
+anything else(4):
+-"050_1847_R"
+-"051_623_L"
+-"052_1427_L"
+-"063_1571_R"
+-"069_1451_L"
