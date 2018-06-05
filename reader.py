@@ -1,4 +1,4 @@
-def reader"
+def reader():
     myfile = open('all_images.txt', 'r')
     txt= myfile.read()
     txtlist= txt.split("~")
@@ -6,6 +6,9 @@ def reader"
     count =0
     for i in range(len(txtlist)):
         labels.append(txtlist[i].split("\n"))
+        labels[i].remove('')
     myfile.close()
-    return labels
+    print txtlist[0]
+    print "\n"
+    print labels[0]
    
