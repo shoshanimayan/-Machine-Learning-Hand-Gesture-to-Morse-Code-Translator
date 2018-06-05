@@ -1,3 +1,5 @@
+#Class 0 is a fist, class 1 is an open hand, class 2 is a pinch, class 3 is vertical hand, and class 4 is miscellaneous
+
 import json
 from sklearn.neural_network import MLPClassifier
 
