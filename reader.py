@@ -8,7 +8,5 @@ def reader():
         labels.append(txtlist[i].split("\n"))
         labels[i].remove('')
     myfile.close()
-    print txtlist[0]
-    print "\n"
-    print labels[0]
+    return labels
    
